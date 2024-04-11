@@ -1,0 +1,30 @@
+name: login
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sembast: ^3.0.0+1
+  sembast_web: ^2.2.0+2
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/a.jpg
+    - assets/snowman0.jpg
+    - assets/snowman1.jpg
+    - assets/snowman2.jpg
+    - assets/snowman3.jpg
+    - assets/snowman4.jpg
